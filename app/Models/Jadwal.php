@@ -1,0 +1,87 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Jadwal extends Model
+{
+    use HasFactory;
+
+    protected $table = 'jadwal';
+
+    protected $fillable = [
+        'kelas',
+        'jam1',
+        'jam2',
+        'jam3',
+        'jam4',
+        'jam5',
+        'jam6',
+        'jam7',
+        'jam8',
+        'jam9',
+        'jam10',
+        'senin1',
+        'senin2',
+        'senin3',
+        'senin4',
+        'senin5',
+        'senin6',
+        'senin7',
+        'senin8',
+        'senin9',
+        'senin10',
+        'selasa1',
+        'selasa2',
+        'selasa3',
+        'selasa4',
+        'selasa5',
+        'selasa6',
+        'selasa7',
+        'selasa8',
+        'selasa9',
+        'selasa10',
+        'rabu1',
+        'rabu2',
+        'rabu3',
+        'rabu4',
+        'rabu5',
+        'rabu6',
+        'rabu7',
+        'rabu8',
+        'rabu9',
+        'rabu10',
+        'kamis1',
+        'kamis2',
+        'kamis3',
+        'kamis4',
+        'kamis5',
+        'kamis6',
+        'kamis7',
+        'kamis8',
+        'kamis9',
+        'kamis10',
+        'jumat1',
+        'jumat2',
+        'jumat3',
+        'jumat4',
+        'jumat5',
+        'jumat6',
+        'jumat7',
+        'jumat8',
+        'jumat9',
+        'jumat10',
+        'sabtu1',
+        'sabtu2',
+        'sabtu3',
+        'sabtu4',
+        'sabtu5',
+        'sabtu6',
+        'sabtu7',
+        'sabtu8',
+        'sabtu9',
+        'sabtu10',
+    ];
+}
